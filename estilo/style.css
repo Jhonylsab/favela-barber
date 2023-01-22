@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: block;
+    background-image: url(../imagens/favelaBarberlogo-g.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+header{
+
+    background-color: black;
+}
+header > h1{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header > menu> nav > ul > li > a {
+    
+    background-color: rgb(78, 78, 78);
+    color: white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none ; 
+    cursor: pointer;  
+    border-top: 2px solid black;
+}
+
+header > menu> nav > ul > li > a:hover{
+        background-color: lightgray;
+        color: black;
+}
+
+main > article {
+
+    width: 90vw;
+    background-color: rgba(255, 255, 255, 0.555);
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+main > article > p {
+    color: white;
+    text-align: justify;
+    text-shadow: black 10px 10px 10px;
+    
+}
+
+footer {
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+    
+
+}
+
